@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(/images/bg-intro-mobile.png);
+    background-color: hsl(0, 100%, 74%);
+}
+
+.title {
+    color: hsl(0, 100%, 100%);
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 30px 30px 30px;
+}
+
+.description {
+    color: hsl(0, 100%, 100%);
+    text-align: center;
+    margin: 20px 30px 30px 30px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.tryFree {
+    color: hsl(0, 100%, 100%);
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    margin: 20px 20px 0 20px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 12px;
+    font-size: 16px;
+    box-shadow: 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.boldChunk {
+    font-weight: 600;
+}
+
+.componentForm {
+    background-color: hsl(0, 100%, 100%);
+    margin: 20px 20px 0 20px;
+    text-align: center;
+    padding: 10px 5px 0 5px;
+    border-radius: 12px;
+    box-shadow: 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+    margin: 0 10px 0px 10px;
+    padding: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    width: 80%;
+    border-color: rgba(0, 0, 0, 0.4);
+}
+
+
+button {
+    background-color: hsl(154, 59%, 51%);
+    margin: 5px 10px 5px 10px;
+    padding: 15px;
+    font-weight: 500;
+    border-radius: 6px;
+    width: 80%;
+    color: hsl(0, 100%, 100%);
+    border-color: 0;
+    cursor: pointer;
+    border-color: hsl(154, 59%, 51%);
+}
+
+.terms {
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-size: 12px;    
+    margin: 5px 20px 0 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+    font-weight: 600;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+.borderError {
+    margin: 5px 10px 5px 10px;
+    padding: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    width: 80%;
+    border-color: hsl(0, 100%, 74%);
+    background-image: url(/images/icon-error.svg);
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+}
+
+.firstError, .lastError, .emailError, .passError {
+    opacity: 0;
+}
+
+.mensageError {
+    font-size: 12px;
+    color: hsl(0, 100%, 74%);
+    text-align: end;
+    margin-right: 50px;
+    margin-top: -5px;
+    margin-bottom: 5px;
+    opacity: 1;
+}
+
+
+@media (min-width: 1440px) {
+
+    .title {
+        width: 40%;
+        margin: 40vh 0 0 0;
+        position: absolute;
+        font-size: 50px;
+        line-height: 50px;
+        margin-left: 100px;
+    }
+
+    .description {        
+        width: 40%;
+        position: absolute;
+        margin: 55vh 0 0 0;
+        font-size: 18px;
+        margin-left: 210px;
+        text-align: justify;
+        padding-right: 50px;
+    }
+
+    .tryFree {
+        width: 32%;
+        margin-left: 55%;
+        margin-top: 20vh;
+        position: absolute;
+    }
+    
+    .componentForm {
+        padding: 40px 20px 40px 20px;
+        height: 60vh;
+        margin-left: 55%;
+        margin-top: 32vh;
+        position: absolute;
+        width: 32%;
+    }
+
+
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <title>Desafio Validação de Formulário</title>
+
+</head>
+<body>
+
+  <header>
+    <h1 class="title">Learn to code by watching others</h1>
+
+    <h2 class="description">See how experienced developers solve poblems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</h2>
+  </header>
+
+  <section class="tryFree">
+    <div class="boldChunk">Try it free 7 days</div>
+    then $20/mo. thereafter
+  </section>
+
+  <main class="componentForm">
+
+    <form id="form" name="form">
+
+      <input class="input" required type="text" name="firstName" placeholder="First Name" id="firstName">
+      
+      <p class="firstError">First Name cannot be empty</p>
+
+      <input class="input" required  type="text" name="lastName" placeholder="Last Name" id="lastName">
+
+      <p class="lastError">Last Name cannot be empty</p>
+
+      <input class="input" required  type="email" name="emailAddress" placeholder="Email Adress" id="emailAddress">
+
+      <p class="emailError">Looks like this is not an email</p>
+
+      <input class="input" required type="password" name="password" placeholder="Password" maxlength="16" id="password" >
+
+      <p class="passError">Password cannot be empty</p>
+
+      <button type="submit" class="botao">CLAIM YOUR FREE TRIAL</button>
+
+      <p class="terms">By clicking the button, you are agreeing to our <a href="">Terms and Services</a></p>
+
+    </form>
+
+  </main>
+
+  <script src="/main.js"></script>
+
+</body>
+</html>
